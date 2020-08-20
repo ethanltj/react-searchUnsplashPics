@@ -21,7 +21,7 @@ render(){
    return (
     <div className="ui container" style={{ marginTop: '10px'}}>
        <SearchBar onSubmit = {this.onSearchSubmit}/>
-       we got : {this.state.images.length} images
+       we got : {this.state.images.length} images hhhhhh
        <ImageList images = {this.state.images} />
     </div>
    );
